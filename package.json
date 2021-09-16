@@ -1,0 +1,27 @@
+{
+  "name": "image-repository-intern-challenge",
+  "version": "1.0.0",
+  "description": "Shopify Backend Intern Challenge",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChadDiaz/image-repository-intern-challenge.git"
+  },
+  "author": "Chad Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChadDiaz/image-repository-intern-challenge/issues"
+  },
+  "homepage": "https://github.com/ChadDiaz/image-repository-intern-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0",
+    "nodemon": "^2.0.12"
+  }
+}

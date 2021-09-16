@@ -1,8 +1,10 @@
-version: '3.4'
+version: '2'
 
 services:
-  imagerepositoryinternchallenge:
-    image: imagerepositoryinternchallenge
+  web:
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: Dockerfile
+    container_name: web
+    ports: 
+      - "8080:80"
